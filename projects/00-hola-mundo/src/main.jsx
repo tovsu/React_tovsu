@@ -1,10 +1,10 @@
 import { Fragment } from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
+import { App } from './App';
 
 
-
-
+/*
 const SpecialButton = ({text}) =>{
   return(
     <button>
@@ -16,10 +16,18 @@ const SpecialButton = ({text}) =>{
   )
 }
 
+
 createRoot(document.getElementById('root')).render(
   <Fragment>
     <SpecialButton text="Button 1" />
     <SpecialButton text="Button 2" />
     <SpecialButton text="Button 3" />
   </Fragment>
+);
+
+*/
+
+
+createRoot(document.getElementById('root')).render(
+  <App/>
 );
